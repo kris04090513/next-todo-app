@@ -1,3 +1,5 @@
+@use 'variables' as *; // 引入變數
+
 .todoForm {
   display: flex;
   gap: 10px;
@@ -11,7 +13,7 @@
   }
 
   button {
-    background: #0070f3;
+    background: $primary-color;
     color: white;
     border: none;
     padding: 8px 12px;
@@ -19,7 +21,7 @@
     border-radius: 4px;
 
     &:hover {
-      background: #005bb5;
+      background: $primary-hover-color;
     }
   }
 }
