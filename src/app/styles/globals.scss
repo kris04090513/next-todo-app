@@ -1,16 +1,5 @@
-// // 將變數定義在這個檔案內
-// $primary-color: #0070f3;
-// $secondary-color: #005bb5;
-
-// body {
-//   font-family: Arial, sans-serif;
-//   background-color: #f5f5f5;
-//   color: #333;
-//   padding: 20px;
-// }
-
-// h1 {
-//   color: $primary-color;
-// }
-
 @use 'variables'; // 引入變數，讓全域樣式也能使用
+body {
+  height: 100vh;
+  background: #ededed;
+}
